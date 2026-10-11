@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 380">
+  <defs>
+    <mask id="clipper" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="380" style="mask-type:luminance">
+      <path fill="white" d="M44 80H156C171 144 172 233 151 330C145 359 132 378 100 378C68 378 55 359 49 330C28 233 29 144 44 80Z"/>
+      <path fill="none" stroke="black" stroke-width="9" d="M38 82C38 152 162 152 162 82M47 300Q100 250 153 300"/>
+    </mask>
+  </defs>
+  <rect width="200" height="380" fill="white" mask="url(#clipper)"/>
+</svg>

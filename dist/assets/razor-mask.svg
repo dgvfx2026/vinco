@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 380">
+  <defs>
+    <mask id="blade" maskUnits="userSpaceOnUse" x="0" y="0" width="240" height="380" style="mask-type:luminance">
+      <path fill="white" d="M40 0H200Q208 0 208 8V10C208 34 222 46 240 46V334C222 334 208 346 208 370V372Q208 380 200 380H40Q32 380 32 372V370C32 346 18 334 0 334V46C18 46 32 34 32 10V8Q32 0 40 0Z"/>
+      <g fill="black">
+        <rect x="111" y="64" width="18" height="252" rx="9"/>
+        <rect x="87" y="60" width="66" height="21" rx="10.5"/>
+        <circle cx="120" cy="135" r="26"/>
+        <circle cx="120" cy="245" r="26"/>
+        <rect x="87" y="299" width="66" height="21" rx="10.5"/>
+      </g>
+    </mask>
+  </defs>
+  <rect width="240" height="380" fill="white" mask="url(#blade)"/>
+</svg>

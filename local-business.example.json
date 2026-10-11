@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "VINCO Barbearia",
+  "url": "{{URL_PUBLICA_DEFINITIVA}}",
+  "image": "{{URL_DA_FOTOGRAFIA_REAL_DO_NEGOCIO}}",
+  "telephone": "{{TELEFONE_REAL_VERIFICADO}}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ENDERECO_REAL_VERIFICADO}}",
+    "addressLocality": "{{CIDADE_REAL}}",
+    "addressRegion": "{{UF_REAL}}",
+    "postalCode": "{{CEP_REAL}}",
+    "addressCountry": "BR"
+  }
+}

@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.tar.gz
+*.zip
+.openai/.workflow-state.json
