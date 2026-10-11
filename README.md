@@ -4,18 +4,23 @@ Landing page completa de uma barbearia **fictícia**, criada para portfólio. Id
 
 ## Abrir o site
 
+Domínio configurado para publicação: https://vincobarber.vercel.app/
+
+Repositório: https://github.com/dgvfx2026/vinco
+
 Prévia local: http://127.0.0.1:4173/
 
-O Site foi registrado com acesso privado, mas **a publicação não foi concluída**. A revisão automática do ambiente bloqueou a entrada de dados no processo auxiliar de sincronização (`write_stdin`), exigindo uma categoria de aprovação desativada. Nenhum deploy foi confirmado. A identidade registrada permanece em `.openai/hosting.json` para retomar a publicação no mesmo Site. A origem configurada nos metadados é https://vinco-barbearia-editorial.stony-snipe-7541.chatgpt.site/; ela ainda não representa uma versão publicada.
+O `index.html` e todos os recursos do site ficam na raiz do projeto. Não há etapa de compilação nem dependências de aplicação para instalar. O arquivo `vercel.json` configura o projeto como HTML estático, com saída na raiz e comandos de instalação e build desativados. No painel do Vercel, mantenha o Root Directory na raiz do repositório, sem selecionar a antiga pasta `dist`.
 
-Para servir localmente, execute `npm run dev` nesta pasta e abra http://127.0.0.1:4173. Requer Python 3; não há dependências de aplicação para instalar. `dist/index.html` também pode ser aberto diretamente no navegador.
+Para servir localmente, execute `npm run dev` nesta pasta e abra http://127.0.0.1:4173. Requer Python 3. `index.html` também pode ser aberto diretamente no navegador.
 
 ## Arquivos
 
-- `dist/index.html`: conteúdo semântico, metadados e vetores de recorte.
-- `dist/styles.css`: sistema visual, responsividade e microinterações.
-- `dist/app.js`: menu móvel, diálogos, galeria, agendamento demonstrativo e sequências de animação.
-- `dist/assets/`: fotografias responsivas em AVIF com fallback WebP, máscaras SVG de lâmina e máquina de corte, fontes locais, favicon e imagem social.
+- `index.html`: conteúdo semântico, metadados e vetores de recorte.
+- `styles.css`: sistema visual, responsividade e microinterações.
+- `app.js`: menu móvel, diálogos, galeria, agendamento demonstrativo e sequências de animação.
+- `assets/`: fotografias responsivas em AVIF com fallback WebP, máscaras SVG de lâmina e máquina de corte, fontes locais, favicon e imagem social.
+- `vercel.json`: publicação estática no Vercel a partir da raiz.
 - `DIRECAO-DE-ARTE.md`: conceito da marca, decisões visuais, origem das imagens e prompts finais.
 - `LICENSES/`: licenças SIL OFL das fontes.
 - `local-business.example.json`: modelo não publicado para informações reais de um futuro negócio.
@@ -46,7 +51,7 @@ Title, description, canonical, Open Graph, imagem social, idioma, um H1, hierarq
 
 O conteúdo visível identifica o caráter fictício. Não há avaliações, perfis sociais, telefone ou localização geográfica inventados. **Não foi publicado um LocalBusiness de uma empresa inexistente.** O modelo usa [HairSalon, do Schema.org](https://schema.org/HairSalon) e só deve ser preenchido e incorporado quando houver empresa, endereço e contato reais, verificados e visíveis na página. Não incluir notas ou avaliações sem fonte legítima.
 
-A hospedagem privada restringe visitas e indexação pública. Para uma publicação aberta, é necessário alterar o acesso com autorização do proprietário. Ao migrar de domínio, atualizar canonical, og:url, og:image, JSON-LD, robots.txt e sitemap.xml com a URL definitiva.
+Canonical, og:url, og:image, JSON-LD, robots.txt e sitemap.xml usam https://vincobarber.vercel.app/. Ao migrar de domínio, atualizar esses endereços com a nova URL definitiva. `.openai/hosting.json` preserva a identidade de uma hospedagem alternativa registrada anteriormente, cuja publicação não foi concluída; ele não configura o Vercel.
 
 ## Validação realizada
 

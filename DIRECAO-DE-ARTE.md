@@ -30,11 +30,11 @@ Os princípios reinterpretados são contraste de fotografia e tipografia, espaç
 
 A referência foi reexaminada em sua imagem original de 1400 × 10743 pixels, ampliando as seções de apresentação e diferenciais. Os recortes de lâmina possuem uma silhueta simétrica, cantos côncavos e uma fenda central que conecta duas aberturas circulares e terminais arredondados. O fundo aparece através desses vazados. A variação de máquina combina dentes vetoriais, corpo fotográfico afunilado e divisões curvas.
 
-O site aplica esses princípios com dois arquivos vetoriais originais: `dist/assets/razor-mask.svg` e `dist/assets/clipper-mask.svg`. As máscaras trabalham com transparência real e escalam junto às imagens. A seção de conceito usa duas lâminas verticais de tamanhos diferentes. O detalhe da galeria adota o formato de máquina; HERO e retrato principal usam enquadramentos inteiros para dar espaço a essas composições.
+O site aplica esses princípios com dois arquivos vetoriais originais: `assets/razor-mask.svg` e `assets/clipper-mask.svg`. As máscaras trabalham com transparência real e escalam junto às imagens. A seção de conceito usa duas lâminas verticais de tamanhos diferentes. O detalhe da galeria adota o formato de máquina; HERO e retrato principal usam enquadramentos inteiros para dar espaço a essas composições.
 
 ## hero
 
-Arquivo responsivo: dist/assets/hero-*.webp
+Arquivo responsivo: assets/hero-*.webp
 
 Prompt final (ferramenta integrada):
 
@@ -42,7 +42,7 @@ Use case: photorealistic-natural. Asset type: custom premium barber brand websit
 
 ## ritual
 
-Arquivo responsivo: dist/assets/ritual-*.webp
+Arquivo responsivo: assets/ritual-*.webp
 
 Prompt final (ferramenta integrada):
 
@@ -50,7 +50,7 @@ Use case: photorealistic-natural. Asset type: premium barber editorial detail im
 
 ## studio
 
-Arquivo responsivo: dist/assets/studio-*.webp
+Arquivo responsivo: assets/studio-*.webp
 
 Prompt final (ferramenta integrada):
 
@@ -58,7 +58,7 @@ Use case: photorealistic-natural. Asset type: luxury contemporary barber studio 
 
 ## portrait
 
-Arquivo responsivo: dist/assets/portrait-*.webp
+Arquivo responsivo: assets/portrait-*.webp
 
 Prompt final (ferramenta integrada):
 
