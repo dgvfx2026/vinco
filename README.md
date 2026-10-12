@@ -31,6 +31,10 @@ HERO fotográfico exclusivo, máscaras de lâmina em CSS/SVG, conceito da marca,
 
 O agendamento permite escolher serviço, dia e horário e revisar o resumo. Bloqueia domingo e segunda; ajusta os horários ao período ilustrativo de atendimento e à duração do serviço. Funciona apenas no navegador, sem dados pessoais, envio, pagamento ou reserva real.
 
+## Paleta
+
+Grafite `#242426`, branco quente `#F0EFEB` e vermelho queimado `#BA3E32`. Botões vermelhos usam texto branco; destaques sobre grafite usam vermelho claro `#F07C6D`. Fotografias, máscaras e coreografia foram preservadas.
+
 ## Animações
 
 Entradas ao rolar a página com IntersectionObserver e Web Animations API, sem biblioteca adicional. Headline do HERO em três tempos; lâminas de lados opostos; textos, preços e setas dos serviços em cascata; fotografias com deslocamento e escala suaves; três ícones vetoriais autorais que chegam da esquerda, direita e de baixo, com uma pequena rotação e acomodação final. A intensidade e os atrasos são menores no celular. Cada elemento entra uma vez por visita, sem controlar a rolagem do usuário.
@@ -63,7 +67,7 @@ Na revisão de movimento, foram observadas as entradas direcionais e a sequênci
 
 Na revisão após a otimização, o navegador carregou AVIF no HERO, nos dois recortes do conceito e nas três ampliações da galeria. Máscaras, proporções e enquadramentos foram conferidos após a inclusão de `picture`. Ausência do controle de ativação e início automático foram confirmados em desktop e mobile. Sem excesso de largura durante animações nas larguras de 1440, 768, 390, 360 e 320 pixels; sem erros ou avisos capturados no console. As dimensões das variantes, arquivos locais, referências das fontes e respostas HTTP foram verificados novamente.
 
-Combinações principais de cor verificadas matematicamente: verde/papel 10,99:1; texto secundário/papel 4,85:1; cítrico/verde 9,33:1. Isso não constitui auditoria completa de acessibilidade. Não foram realizados testes em aparelhos físicos ou Safari, nem medição Lighthouse ou Core Web Vitals; nenhuma pontuação é alegada.
+Combinações da paleta grafite e vermelho verificadas matematicamente: grafite/branco quente 13,47:1; texto secundário/branco quente 5,19:1; branco/vermelho 5,49:1; vermelho claro/grafite 5,76:1; vermelho/branco quente 4,77:1. Isso não constitui auditoria completa de acessibilidade. Não foram realizados testes em aparelhos físicos ou Safari, nem medição Lighthouse ou Core Web Vitals; nenhuma pontuação é alegada.
 
 ## Configuração externa futura
 

@@ -16,13 +16,13 @@ Os princípios reinterpretados são contraste de fotografia e tipografia, espaç
 
 **Personalidade e voz:** segura, atenta e direta. Frases curtas, linguagem brasileira natural e nenhuma promessa de transformação pessoal.
 
-**Paleta:** verde profundo `#26372F`, papel `#F1F0E7`, cítrico `#DBE675`, texto secundário `#626B5F`. O verde dá profundidade à fotografia; o claro cria respiro; o cítrico marca decisões e detalhes.
+**Paleta:** grafite `#242426`, branco quente `#F0EFEB`, vermelho queimado `#BA3E32`, texto secundário `#646366`. O grafite dá profundidade às seções; o claro cria respiro; o vermelho marca ações e detalhes. Textos de destaque em áreas escuras usam vermelho claro `#F07C6D` para preservar contraste. Botões vermelhos usam texto branco.
 
 **Tipografia:** Barlow Condensed 600/700 para headlines e logotipo tipográfico; DM Sans 400/500/600 para leitura e interface; Cormorant Garamond 500 itálico para palavras de contraste editorial. Fontes servidas localmente em WOFF2, com licenças SIL OFL em `LICENSES/`.
 
 **Direção fotográfica:** pele e cabelo com textura, luz lateral, verdes contidos, calor natural da pele, madeira e aço. Quatro imagens originais geradas com a ferramenta integrada ImageGen. Prompts finais registrados abaixo.
 
-**Composição gráfica:** grandes títulos, grid editorial, recortes em CSS e clipPath SVG inspirados nos entalhes de lâminas. Linha fina, detalhes cítricos e assimetria moderada conectam as seções. A versão móvel coloca o retrato acima da tipografia e reorganiza a galeria e os serviços.
+**Composição gráfica:** grandes títulos, grid editorial, recortes em CSS e clipPath SVG inspirados nos entalhes de lâminas. Linha fina, detalhes vermelhos e assimetria moderada conectam as seções. A versão móvel coloca o retrato acima da tipografia e reorganiza a galeria e os serviços.
 
 **Proposta de valor do conceito:** consulta antes do corte, desenho adequado ao rosto e à rotina, acabamento preciso e orientação de manutenção. Serviços e experiências são inteiramente fictícios.
 
